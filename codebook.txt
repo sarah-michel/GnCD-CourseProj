@@ -1,0 +1,226 @@
+#---------------------------#
+#   ___ codebook.txt ___    #     |\____/\
+# Sarah Michel              #     / ,o  o ;
+# Coursera                  #   ==:. / Y\ :=
+# Getting & Cleaning Data   #     \ `\ w/'/
+# 2015-08-22                #     /       \
+#---------------------------#
+
+This describes the contents of run_analysis_output.txt, produced by running
+run_analysis.R on the UCI HAR Dataset.
+---------------------------------------------------------------------------
+
+subject_id
+    Numeric ID of subject
+    1:30 each representing one participant
+
+activity_id
+    Numeric ID of activity
+    1:6 each representing one activity_id
+
+activity_name
+    Plaintext name of activity
+        WALKING
+        WALKING_UPSTAIRS
+        WALKING_DOWNSTAIRS
+        SITTING
+        STANDING
+        LAYING
+
+tBodyAcc-mean()-X
+    The mean of means over all test & training data for tBodyAcc on the X axis
+
+tBodyAcc-mean()-Y
+    The mean of means over all test & training data for tBodyAcc on the Y axis
+
+tBodyAcc-mean()-Z
+    The mean of means over all test & training data for tBodyAcc on the Z axis
+
+tBodyAcc-std()-X
+    The mean of standard deviations over all test & training data for tBodyAcc on the X axis
+
+tBodyAcc-std()-Y
+    The mean of standard deviations over all test & training data for tBodyAcc on the Y axis
+
+tBodyAcc-std()-Z
+    The mean of standard deviations over all test & training data for tBodyAcc on the Z axis
+
+tGravityAcc-mean()-X
+    The mean of means over all test & training data for tGravityAcc on the X axis
+
+tGravityAcc-mean()-Y
+    The mean of means over all test & training data for tGravityAcc on the Y axis
+
+tGravityAcc-mean()-Z
+    The mean of means over all test & training data for tGravityAcc on the Z axis
+
+tGravityAcc-std()-X
+    The mean of standard deviations over all test & training data for tGravityAcc on the X axis
+
+tGravityAcc-std()-Y
+    The mean of standard deviations over all test & training data for tGravityAcc on the Y axis
+
+tGravityAcc-std()-Z
+    The mean of standard deviations over all test & training data for tGravityAcc on the Z axis
+
+tBodyAccJerk-mean()-X
+    The mean of means over all test & training data for tBodyAccJerk on the X axis
+
+tBodyAccJerk-mean()-Y
+    The mean of means over all test & training data for tBodyAccJerk on the Y axis
+
+tBodyAccJerk-mean()-Z
+    The mean of means over all test & training data for tBodyAccJerk on the Z axis
+
+tBodyAccJerk-std()-X
+    The mean of standard deviations over all test & training data for tBodyAccJerk on the X axis
+
+tBodyAccJerk-std()-Y
+    The mean of standard deviations over all test & training data for tBodyAccJerk on the Y axis
+
+tBodyAccJerk-std()-Z
+    The mean of standard deviations over all test & training data for tBodyAccJerk on the Z axis
+
+tBodyGyro-mean()-X
+    The mean of means over all test & training data for tBodyGyro on the X axis
+
+tBodyGyro-mean()-Y
+    The mean of means over all test & training data for tBodyGyro on the Y axis
+
+tBodyGyro-mean()-Z
+    The mean of means over all test & training data for tBodyGyro on the Z axis
+
+tBodyGyro-std()-X
+    The mean of standard deviations over all test & training data for tBodyGyro on the X axis
+
+tBodyGyro-std()-Y
+    The mean of standard deviations over all test & training data for tBodyGyro on the Y axis
+
+tBodyGyro-std()-Z
+    The mean of standard deviations over all test & training data for tBodyGyro on the Z axis
+
+tBodyGyroJerk-mean()-X
+    The mean of means over all test & training data for tBodyGyroJerk on the X axis
+
+tBodyGyroJerk-mean()-Y
+    The mean of means over all test & training data for tBodyGyroJerk on the Y axis
+
+tBodyGyroJerk-mean()-Z
+    The mean of means over all test & training data for tBodyGyroJerk on the Z axis
+
+tBodyGyroJerk-std()-X
+    The mean of standard deviations over all test & training data for tBodyGyroJerk on the X axis
+
+tBodyGyroJerk-std()-Y
+    The mean of standard deviations over all test & training data for tBodyGyroJerk on the Y axis
+
+tBodyGyroJerk-std()-Z
+    The mean of standard deviations over all test & training data for tBodyGyroJerk on the Z axis
+
+tBodyAccMag-mean()
+    The mean of means over all test & training data for tBodyAccMag
+
+tBodyAccMag-std()
+    The mean of standard deviations over all test & training data for tBodyAccMag
+
+tGravityAccMag-mean()
+    The mean of means over all test & training data for tGravityAccMag
+
+tGravityAccMag-std()
+    The mean of standard deviations over all test & training data for tGravityAccMag
+
+tBodyAccJerkMag-mean()
+    The mean of means over all test & training data for tBodyAccJerkMag
+
+tBodyAccJerkMag-std()
+    The mean of standard deviations over all test & training data for tBodyAccJerkMag
+
+tBodyGyroMag-mean()
+    The mean of means over all test & training data for tBodyGyroMag
+
+tBodyGyroMag-std()
+    The mean of standard deviations over all test & training data for tBodyGyroMag
+
+tBodyGyroJerkMag-mean()
+    The mean of means over all test & training data for tBodyGyroJerkMag
+
+tBodyGyroJerkMag-std()
+    The mean of standard deviations over all test & training data for tBodyGyroJerkMag
+
+fBodyAcc-mean()-X
+    The mean of means over all test & training data for fBodyAcc on the X axis
+
+fBodyAcc-mean()-Y
+    The mean of means over all test & training data for fBodyAcc on the Y axis
+
+fBodyAcc-mean()-Z
+    The mean of means over all test & training data for fBodyAcc on the Z axis
+
+fBodyAcc-std()-X
+    The mean of standard deviations over all test & training data for fBodyAcc on the X axis
+
+fBodyAcc-std()-Y
+    The mean of standard deviations over all test & training data for fBodyAcc on the Y axis
+
+fBodyAcc-std()-Z
+    The mean of standard deviations over all test & training data for fBodyAcc on the Z axis
+
+fBodyAccJerk-mean()-X
+    The mean of means over all test & training data for fBodyAccJerk on the X axis
+
+fBodyAccJerk-mean()-Y
+    The mean of means over all test & training data for fBodyAccJerk on the Y axis
+
+fBodyAccJerk-mean()-Z
+    The mean of means over all test & training data for fBodyAccJerk on the Z axis
+
+fBodyAccJerk-std()-X
+    The mean of standard deviations over all test & training data for fBodyAccJerk on the X axis
+
+fBodyAccJerk-std()-Y
+    The mean of standard deviations over all test & training data for fBodyAccJerk on the Y axis
+
+fBodyAccJerk-std()-Z
+    The mean of standard deviations over all test & training data for fBodyAccJerk on the Z axis
+
+fBodyGyro-mean()-X
+    The mean of means over all test & training data for fBodyGyro on the X axis
+
+fBodyGyro-mean()-Y
+    The mean of means over all test & training data for fBodyGyro on the Y axis
+
+fBodyGyro-mean()-Z
+    The mean of means over all test & training data for fBodyGyro on the Z axis
+
+fBodyGyro-std()-X
+    The mean of standard deviations over all test & training data for fBodyGyro on the X axis
+
+fBodyGyro-std()-Y
+    The mean of standard deviations over all test & training data for fBodyGyro on the Y axis
+
+fBodyGyro-std()-Z
+    The mean of standard deviations over all test & training data for fBodyGyro on the Z axis
+
+fBodyAccMag-mean()
+    The mean of means over all test & training data for fBodyAccMag
+
+fBodyAccMag-std()
+    The mean of standard deviations over all test & training data for fBodyAccMag
+
+fBodyBodyAccJerkMag-mean()
+    The mean of means over all test & training data for fBodyBodyAccJerkMag
+
+fBodyBodyAccJerkMag-std()
+    The mean of standard deviations over all test & training data for fBodyBodyAccJerkMag
+
+fBodyBodyGyroMag-mean()
+    The mean of means over all test & training data for fBodyBodyGyroMag
+
+fBodyBodyGyroMag-std()
+    The mean of standard deviations over all test & training data for fBodyBodyGyroMag
+
+fBodyBodyGyroJerkMag-mean()
+    The mean of means over all test & training data for fBodyBodyGyroJerkMag
+
+fBodyBodyGyroJerkMag-std()
+    The mean of standard deviations over all test & training data for fBodyBodyGyroJerkMag
