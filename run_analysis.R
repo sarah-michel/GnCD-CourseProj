@@ -6,6 +6,9 @@
 # 2015-08-22                #     /       \
 #---------------------------#
 
+# Libraries
+    library(reshape2)
+
 # By default, looks for folder in its working directory.
     src <- paste(getwd(),"UCI HAR Dataset",sep="/")
 
