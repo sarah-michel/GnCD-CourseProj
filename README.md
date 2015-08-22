@@ -1,6 +1,6 @@
 ```
 #---------------------------#
-#   ___ codebook.txt ___    #     |\____/\
+#     ___ README.md ___     #     |\____/\
 # Sarah Michel              #     / ,o  o ;
 # Coursera                  #   ==:. / Y\ :=
 # Getting & Cleaning Data   #     \ `\ w/'/
