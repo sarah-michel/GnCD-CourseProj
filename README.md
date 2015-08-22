@@ -1,10 +1,10 @@
-#---------------------------#
-#     ___ README.md ___     #     |\____/\
-# Sarah Michel              #     / ,o  o ;
-# Coursera                  #   ==:. / Y\ :=
-# Getting & Cleaning Data   #     \ `\ w/'/
-# 2015-08-22                #     /       \
-#---------------------------#
+`----------------------------
+`     ___ README.md ___     -     |\____/\
+` Sarah Michel              -     / ,o  o ;
+` Coursera                  -   ==:. / Y\ :=
+` Getting & Cleaning Data   -     \ `\ w/'/
+` 2015-08-22                -     /       \
+`----------------------------
 
 run_analysis.R reads data from the UCI HAR dataset, stitches it together,
 does some aggregation, and saves the result as run_analysis_output.txt in the
